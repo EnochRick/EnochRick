@@ -12,3 +12,5 @@ Cheers, EnochRick.
 ## Some of my writing:
 
 [Making HVAC Systems Efficient – The Case for Widespread Adoption of ASHRAE Guideline 36, Submitted to ACEEE 2020 Summer Study](https://www.linkedin.com/pulse/making-hvac-systems-efficient-case-widespread-ashrae-36-stehmeyer/)
+
+[My Old Cx Associates Blog - check these folks out, they're a great VT Commisisoning Engineering firm and they are also very forward thinking in their approach to technology!](https://buildingenergy.cx-associates.com/author/rick-stehmeyer)
