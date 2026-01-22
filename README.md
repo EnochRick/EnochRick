@@ -1,6 +1,6 @@
 ## About me
 
-Hello there!  I am Rick Stehmeyer, I am a 22-year veteran of the building automation systems (BAS) industry.  I have created this GitHub profile to start sharing things that might help others reduce their carbon footprint in the built environment. I am also learning the GitHub workflow and how to be an open-source contributor to projects that I think I can benefit from. 
+Hello there!  I am Rick Stehmeyer, I am a 24-year veteran of the building automation systems (BAS) industry.  I have created this GitHub profile to start sharing things that might help others reduce their carbon footprint in the built environment. I am also learning the GitHub workflow and how to be an open-source contributor to projects that I think I can benefit from. 
 
 If you see anything here that might need some help or have suggestions for me, feel free to reach out.  You can find me pretty easily these days with a quick Google search or just use the email on this page.  I look forward to engaging folks here in the code community! 
 
