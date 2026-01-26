@@ -1,6 +1,6 @@
 # Enoch Rick's CDL notes
 
-From (the original paper on CLD)[https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf]
+From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf)
 ##CDL needs to satisfy these high level requirements:
 - It must be independent of any control-vendor specific platform.
 - It must be declarative to facilitate its translation to other languages.
