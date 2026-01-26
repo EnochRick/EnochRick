@@ -2,7 +2,7 @@
 
 ## From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf)
 ### Intro:
-"  The purpose of this paper is to describe a first implementation of a language with the intent to develop a standard for expressing building control sequences. This standard should support the mechanical designer in developing and testing control sequences within building energy simulations, and exporting these sequences to create unambiguous specifications for the control provider. It should support control providers in cost-estimation and in implementation of the control sequence on their control platform through machine-to-machine translation, and it should support the commissioning agent when verifying that the implemented control sequence meets the original specification. "
+"_The purpose of this paper is to describe a first implementation of a language with the intent to develop a standard for expressing building control sequences. This standard should support the mechanical designer in developing and testing control sequences within building energy simulations, and exporting these sequences to create unambiguous specifications for the control provider. It should support control providers in cost-estimation and in implementation of the control sequence on their control platform through machine-to-machine translation, and it should support the commissioning agent when verifying that the implemented control sequence meets the original specification._"
 
 ### CDL needs to satisfy these high level requirements:
 - It must be independent of any control-vendor specific platform.
