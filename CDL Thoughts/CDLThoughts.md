@@ -14,7 +14,7 @@ From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/downl
 - implementation of the control sequence on their control platform through machine-to-machine translation
 - support the commissioning agent when verifying that the implemented control sequence meets the original specification
 
-![EnochRick's Breakdown of Purpose diagram](/images/introDiagram.png)
+![EnochRick's Breakdown of Purpose diagram](images/introDiagram.png)
 This image from [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf) Wetter, M., Grahovac M., Jianjun H.
   Control Description Language,
   Lawrence Berkeley National Laboratory
