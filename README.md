@@ -11,7 +11,7 @@ Cheers, EnochRick.
 
 ## Some of my writing:
 
-[Thoughts on ASHRAE 231P CDL - this is a work in progress as of winter 2026]([/CDL Thoughts/CDLThoughts.md](https://github.com/EnochRick/EnochRick/blob/main/CDL%20Thoughts/CDLThoughts.md))
+[Thoughts on ASHRAE 231P CDL - this is a work in progress as of winter 2026](https://github.com/EnochRick/EnochRick/blob/main/CDL%20Thoughts/CDLThoughts.md)
 
 [Making HVAC Systems Efficient – The Case for Widespread Adoption of ASHRAE Guideline 36, Submitted to ACEEE 2020 Summer Study](https://www.linkedin.com/pulse/making-hvac-systems-efficient-case-widespread-ashrae-36-stehmeyer/)
 
