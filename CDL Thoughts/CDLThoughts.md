@@ -55,3 +55,4 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
   - Deployment and use / reference material for help - troubleshooting
   - Ongoing Maintenance and upgrades 
 
+* : On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux. 
