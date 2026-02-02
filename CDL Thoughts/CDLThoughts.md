@@ -43,4 +43,15 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 
 ### thoughts on open Modelica
 - install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-)
-- [User guide link](https://openmodelica.org/useresresources/userdocumentation/) on their site is broken link. 
+- [User guide link](https://openmodelica.org/useresresources/userdocumentation/) on their site is broken link.
+
+### General thoughts / Ideas to flush out:
+- Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"* controls platform: Tridium's Niagara
+    - What subset of the entire Mechanical Engineering population understands Niagara in design?
+    - What subset of the entire Controls Programming population understands Niagara in implementation?
+    - What subset of the entire Commissioning population understand Niagara in validation?
+- Compare Niagara to CDL for:
+  - Training / onboarding of each of the three stakeholder groups
+  - Deployment and use / reference material for help - troubleshooting
+  - Ongoing Maintenance and upgrades 
+
