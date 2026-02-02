@@ -17,7 +17,7 @@ From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/downl
 ![EnochRick's Breakdown of Purpose diagram](images/IntroDiagram.png)
 This image from [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf) 
 - Wetter, M., Grahovac M., Jianjun H.
-  Control Description Language
+  Control Description Language,
   Lawrence Berkeley National Laboratory
 
 <ins>Stakeholders:</ins>
