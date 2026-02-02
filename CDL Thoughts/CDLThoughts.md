@@ -34,3 +34,6 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - It must be deterministic, e.g., for given inputs and states, different implementations of sequences expressed must yield the same output and state updates (within the precision of ordinary differential equation solvers that may integrate PID controllers).
 - It should be possible to translate the sequence to a variety of building control platforms.
 - It must allow identification of cyclic graphs that would require iterative solutions and hence are not suited for implementation in building automation systems.
+
+### Relevant Links
+- [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
