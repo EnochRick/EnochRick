@@ -42,4 +42,5 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - [Open Modelica](https://openmodelica.org/)
 
 ### thoughts on open Modelica
-- install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-) 
+- install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-)
+- [User guide link](https://openmodelica.org/useresresources/userdocumentation/) on their site is broken link. 
