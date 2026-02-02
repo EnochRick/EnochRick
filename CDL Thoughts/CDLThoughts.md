@@ -46,7 +46,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - [User guide link](https://openmodelica.org/useresresources/userdocumentation/) on their site is broken link.
 
 ### General thoughts / Ideas to flush out:
-- Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"* controls platform: Tridium's Niagara
+- Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"(1) controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
     - What subset of the entire Controls Programming population understands Niagara in implementation?
     - What subset of the entire Commissioning population understand Niagara in validation?
@@ -55,4 +55,4 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
   - Deployment and use / reference material for help - troubleshooting
   - Ongoing Maintenance and upgrades 
 
-- * : On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux. 
+- (1) On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux. 
