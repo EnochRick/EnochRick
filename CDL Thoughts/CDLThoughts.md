@@ -36,4 +36,5 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - It must allow identification of cyclic graphs that would require iterative solutions and hence are not suited for implementation in building automation systems.
 
 ### Relevant Links
+- [Open Building control Website](https://obc.lbl.gov/)
 - [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
