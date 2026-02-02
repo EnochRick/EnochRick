@@ -14,6 +14,8 @@ From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/downl
 - implementation of the control sequence on their control platform through machine-to-machine translation
 - support the commissioning agent when verifying that the implemented control sequence meets the original specification
 
+![EnochRick's Breakdown of Purpose diagram](images/IntroDiagram.png)
+
 <ins>Stakeholders:</ins>
 - Mechanical Desinger - MEP PE workflows
 - Constrols provider sales - System integrator bidding workflows
