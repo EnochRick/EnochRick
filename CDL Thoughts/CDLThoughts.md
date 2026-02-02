@@ -39,3 +39,6 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - [Open Building control Website](https://obc.lbl.gov/)
 - [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
 - [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
+
+### thoughts on open Modelica
+- install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-) 
