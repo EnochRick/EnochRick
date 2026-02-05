@@ -46,7 +46,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
 They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
   
-- Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^1] controls platform: Tridium's Niagara
+- Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^5] controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
     - What subset of the entire Controls Programming population understands Niagara in implementation?
     - What subset of the entire Commissioning population understand Niagara in validation?
@@ -56,12 +56,10 @@ They state after the simulations are satisfactory to the design engineer they ex
   - Ongoing Maintenance and upgrades
 
 ### Relevant Links
-- [Open Building control Website](https://obc.lbl.gov/)[^Reference1]
-- [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)[^Reference2]
-- [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)[^Reference3]
-- [Open Modelica](https://openmodelica.org/)[^Reference4]
+- Open Building control Website [^Reference1]
+- OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,[^Reference2]
 
-[^1]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
+[^5]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
 [^Reference1]: [Open Building control Website](https://obc.lbl.gov/)
 [^Reference2]:[OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
 [^Reference3]:[Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
