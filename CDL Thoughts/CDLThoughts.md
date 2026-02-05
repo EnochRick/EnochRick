@@ -78,6 +78,16 @@ They state after the simulations are satisfactory to the design engineer they ex
   - Deployment and use / reference material for help - troubleshooting
   - Ongoing Maintenance and upgrades
 
+### Problems CDL will eventually solve
+--------------------------------------
+- Apples to apples estimating for controls contractors
+- Testing and validation of controls sequences regardless of the controls platform
+- Common industry programming lanugage which will allow open sourcing of the control code used in the HVAC automation industry
+- Level the playingfield for competition on ability rather than product in the HVAC Automation indusrty
+- New options on controls hardware / cross compatiblity with new automation hardware platforms that typically dont target the HVAC automation industry
+- Deterministic States of control code execution - the same program will give the same output given the same inputs on any hardware
+- The abiity to remove BACnet from the industry and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protoco-gated data model
+
 ### Relevant Links
 - Open Building control Website [^Reference1]
 - OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,[^Reference2]
