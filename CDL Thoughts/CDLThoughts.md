@@ -46,7 +46,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 
 ### General thoughts / Ideas to flush out:
 - Look at where the overall intended workflow of CDL is and how it will fit practicall into commercial projects to acheive the goals of CDL.
-  I noticed in their janurary 2022 paper the intended CDL purpose serving the workflow as state:
+  I noticed in their janurary 2022 paper [(2) above in Relevant Links] the intended CDL purpose serving the workflow as state:
   >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
 
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
