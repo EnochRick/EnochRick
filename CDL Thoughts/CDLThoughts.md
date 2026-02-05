@@ -15,9 +15,7 @@ From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/downl
 - support the commissioning agent when verifying that the implemented control sequence meets the original specification
 
 ![EnochRick's Breakdown of Purpose diagram](images/introDiagram.png)
-This image from [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf) Wetter, M., Grahovac M., Hu J.
-  Control Description Language,
-  Lawrence Berkeley National Laboratory
+This image from the original paper on CDL[^Reference5]
 
 <ins>Stakeholders:</ins>
 - Mechanical Desinger - MEP PE workflows
@@ -117,4 +115,5 @@ end LinearScale;
 [^Reference2]:[OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
 [^Reference3]:[Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
 [^Reference4]:[Open Modelica](https://openmodelica.org/)
+[^Reference5]:[CDL ](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf)  Wetter, M., Grahovac M., Hu J., Control Description Language,Lawrence Berkeley National Laboratory
 [^5]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
