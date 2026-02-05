@@ -50,6 +50,22 @@ They state a process that starts with the stakeholder of the "design engineer", 
 They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
 - Takeaway: between the original 2018 paper[^Reference1] and 2022 the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
 
+#### Second issue - Commercial friction - where time is money
+----------------------------------------------------------------------------------------------------
+ In their janurary 2022 paper[^Reference2], second paragraph of section 3 "Methodology" the intended CDL workflow then carries into a list of other software platforms the design engineer should / would be using :
+ > For closed-loop performance assessment, step (2) in the figure, Modelica models of the HVAC systems and controls [34] can be linked to a Modelica envelope model [33] or to an EnergyPlus envelope model. This can currently be done through Spawn of EnergyPlus [38]. Library of control sequences, step (3), have been released with the Modelica Buildings Library 7.0.0 and more sequences are currently added to this library. To export control sequences in a vendor-neutral format, step (5), a translator from CDL to a json intermediate format has been developed [22]. The json intermediate format is to be used as input for cost estimation tools and for translators to vendor-specific product lines. This translator also outputs an English language description of the control sequence, including its block diagram representation.
+
+**Listed Tools** This paragraph and assocaited tools imply the MEP design engineering firm is modeling MEP and Envelope in a whole building model
+- Modelica (via Modelica envelope model)
+  - Modelica Building Library 7.0.0
+- EnergyPlus (same as above)
+- Spawn of EnergyPlus
+- CDL to JSON translator
+  - JSON ingesting Cost Estmiation tools
+  - JSON ingesting CDL to Vendor IDE translation tool (Developed by each vendor)
+  - JSON to english description of CDL sequence & Block Diagram
+
+
 ####  Todo
 ----------
 - Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^5] controls platform: Tridium's Niagara
