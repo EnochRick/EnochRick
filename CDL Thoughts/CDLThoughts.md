@@ -45,6 +45,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
 They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
+- Takeaway: between the original 2018 paper[^Reference1] and 2022 the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
   
 - Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^5] controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
