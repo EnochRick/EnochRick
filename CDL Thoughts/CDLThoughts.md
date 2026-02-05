@@ -92,7 +92,8 @@ They state after the simulations are satisfactory to the design engineer they ex
 ## Example Code:
 ```modelica
 block LinearScale
-  "allows a linear scale of an input to be based on a line defined by 2 coordinates on the line itself: X1,Y1 and the resultant X2,Y2 inputs.  This is a common implentation of linear scaling in control systems."
+  "allows a linear scale of an input to be based on a line defined by 2 coordinates on the line itself: X1,Y1 and
+  the resultant X2,Y2 inputs.  This is a common implentation of linear scaling in control systems."
   Interfaces.RealInput x1 "First x cooridnate";
   Interfaces.RealInput y1 "First y cooridnate";
   Interfaces.RealInput x2 "Second x cooridnate";
