@@ -90,7 +90,7 @@ They state after the simulations are satisfactory to the design engineer they ex
 - The abiity to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door.
 
 ## Example Code:
-```Modelica
+```modelica
 block LinearScale
   "allows a linear scale of an input to be based on a line defined by 2 coordinates on the line itself: X1,Y1 and the resultant X2,Y2 inputs.  This is a common implentation of linear scaling in control systems.
   Interfaces.RealInput x1
