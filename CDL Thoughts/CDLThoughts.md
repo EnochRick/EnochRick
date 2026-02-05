@@ -25,8 +25,6 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - Controls Provider programmer - System integrator programming / startup and turnover workflows
 - Commissioning Agent - Validation and verification worflows
 
-
-
 ### CDL needs to satisfy these high level requirements:
 - It must be independent of any control-vendor specific platform.
 - It must be declarative to facilitate its translation to other languages.
@@ -36,10 +34,10 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - It must allow identification of cyclic graphs that would require iterative solutions and hence are not suited for implementation in building automation systems.
 
 ### Relevant Links
-- [Open Building control Website](https://obc.lbl.gov/)
-- [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
-- [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
-- [Open Modelica](https://openmodelica.org/)
+- (1) [Open Building control Website](https://obc.lbl.gov/)
+- (2) [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
+- (3) [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
+- (4) [Open Modelica](https://openmodelica.org/)
 
 ### thoughts on open Modelica
 - install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-)
@@ -47,6 +45,12 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
   - User guide in program works 
 
 ### General thoughts / Ideas to flush out:
+- Look at where the overall intended workflow of CDL is and how it will fit practicall into commercial projects to acheive the goals of CDL.
+  I noticed in their janurary 2022 paper the intended CDL purpose serving the workflow as state:
+  >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
+
+The 
+  
 - Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^1] controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
     - What subset of the entire Controls Programming population understands Niagara in implementation?
