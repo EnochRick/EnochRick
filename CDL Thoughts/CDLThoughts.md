@@ -1,4 +1,4 @@
-# Enoch Rick's ASHRAE 231P - CDL notes and Opinions 
+# Rick's ASHRAE 231P - CDL notes and Opinions 
 
 Everything below is my notes on ASHRAE 231P "A Control Description Language" (or CDL for short), its intent and what it can become / should be.  These are my own musings and are <ins>not be interpreted as related to the CDL project or ASHRAE in any official context</ins>.  I am simply cataloging information in this doc and the others linked there in for my own purposes and and mental refinement which I hope to use to contribute to the project eventually. I will summerize starting from the original paper (below) which kicked off most of my oppinions and thoughts on this project and its benefits for the HVAC Automation industry as a whole.  Apologies for spelling mistakes as i generally developed this document on my own time, after working a full day, then being a father, then a husband, then what was left of that day came here.   
 
