@@ -58,6 +58,8 @@ They state after the simulations are satisfactory to the design engineer they ex
 ### Relevant Links
 - Open Building control Website [^Reference1]
 - OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,[^Reference2]
+- Buildings Controls OBC UsersGuide [^Reference3]
+- Open Modelica [^Reference4]
 
 [^5]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
 [^Reference1]: [Open Building control Website](https://obc.lbl.gov/)
