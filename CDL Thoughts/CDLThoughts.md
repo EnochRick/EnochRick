@@ -48,7 +48,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
 They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
-- **Rick's Hottake**: between the original 2018 paper[^Reference1] and 2022 the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
+- **Rick's Hottake**: between the original 2018 paper[^Reference1] and their 2022 paper [^Reference2] the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
 
 #### Second issue - Commercial friction - where time is money
 ----------------------------------------------------------------------------------------------------
@@ -111,8 +111,9 @@ end LinearScale;
 - Buildings Controls OBC UsersGuide [^Reference3]
 - Open Modelica [^Reference4]
 
-[^5]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
+
 [^Reference1]: [Open Building control Website](https://obc.lbl.gov/)
 [^Reference2]:[OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
 [^Reference3]:[Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
 [^Reference4]:[Open Modelica](https://openmodelica.org/)
+[^5]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
