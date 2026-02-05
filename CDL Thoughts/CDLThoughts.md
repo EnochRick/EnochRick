@@ -103,7 +103,11 @@ block LinearScale
     "Second x cooridnate"
   Interfaces.RealInput i
     "connector for signal to be scaled"
-
+  Interfaces.RealOutput o
+    "connector of the real output signal"
+equation
+  o = ((y2 - y1)*(i - x1))/(x2-x1)+y1
+end LinearScale
 ```
 
 ### Relevant Links
