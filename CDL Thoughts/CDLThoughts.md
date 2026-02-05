@@ -1,6 +1,6 @@
 # Enoch Rick's ASHRAE 231P - CDL notes and Opinions 
 
-Everything below is my notes on ASHRAE 231P "A Control Description Language" (or CDL for short), its intent and what it can become / should be.  These are my own musings and are <ins>not be interpreted as related to the CDL project or ASHRAE in any official context</ins>.  I am simply cataloging information in this doc and the others linked there in for my own purposes and and mental refinement which I hope to use to contribute to the project eventually. I will summerize starting from the original paper (below) which kicked off most of my oppinions and thoughts on this project and its benefits for the HVAC Automation industry as a whole.  
+Everything below is my notes on ASHRAE 231P "A Control Description Language" (or CDL for short), its intent and what it can become / should be.  These are my own musings and are <ins>not be interpreted as related to the CDL project or ASHRAE in any official context</ins>.  I am simply cataloging information in this doc and the others linked there in for my own purposes and and mental refinement which I hope to use to contribute to the project eventually. I will summerize starting from the original paper (below) which kicked off most of my oppinions and thoughts on this project and its benefits for the HVAC Automation industry as a whole.  Apologies for spelling mistakes as i generally developed this document on my own time, after working a full day, then being a father, then a husband, then what was left of that day came here.   
 
 From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf)
 ### Intro:
@@ -39,6 +39,9 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
   - User guide in program works 
 
 ### General thoughts / Ideas to flush out:
+===========================================
+#### First issue - Who starts the process of using CDL commercially to solve our commerical problem?
+----------------------------------------------------------------------------------------------------
 - Look at where the overall intended workflow of CDL is and how it will fit practicall into commercial projects to acheive the goals of CDL.
   In their janurary 2022 paper[^Reference2], first paragraph of section 3 "Methodology" the intended CDL workflow starts with:
   >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
@@ -46,7 +49,9 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
 They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
 - Takeaway: between the original 2018 paper[^Reference1] and 2022 the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
-  
+
+####  Todo
+----------
 - Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^5] controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
     - What subset of the entire Controls Programming population understands Niagara in implementation?
