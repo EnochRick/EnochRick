@@ -4,7 +4,7 @@ Everything below is my notes on ASHRAE 231P "A Control Description Language" (or
 
 From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/download/2018-americanModelica-WetterGrahovacHu.pdf)
 ### Intro:
-"_The purpose of this paper is to describe a first implementation of 	<ins>a language with the intent to develop a standard for expressing building control sequences</ins>. This standard should support the mechanical designer in developing and testing control sequences within building energy simulations, and exporting these sequences to create unambiguous specifications for the control provider. It should support control providers in cost-estimation and in implementation of the control sequence on their control platform through machine-to-machine translation, and it should support the commissioning agent when verifying that the implemented control sequence meets the original specification._"
+> "_The purpose of this paper is to describe a first implementation of 	<ins>a language with the intent to develop a standard for expressing building control sequences</ins>. This standard should support the mechanical designer in developing and testing control sequences within building energy simulations, and exporting these sequences to create unambiguous specifications for the control provider. It should support control providers in cost-estimation and in implementation of the control sequence on their control platform through machine-to-machine translation, and it should support the commissioning agent when verifying that the implemented control sequence meets the original specification._"
 
 ## Key points:
 - develop a standard for expressing building control sequences
@@ -49,7 +49,8 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
   I noticed in their janurary 2022 paper the intended CDL purpose serving the workflow as state:
   >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
 
-The 
+They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
+They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
   
 - Look at comparing the ease of use of CDL to that of the most commonly understood to be "open"[^1] controls platform: Tridium's Niagara
     - What subset of the entire Mechanical Engineering population understands Niagara in design?
