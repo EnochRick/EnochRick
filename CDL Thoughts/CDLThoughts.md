@@ -34,10 +34,10 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 - It must allow identification of cyclic graphs that would require iterative solutions and hence are not suited for implementation in building automation systems.
 
 ### Relevant Links
-- (1) [Open Building control Website](https://obc.lbl.gov/)
-- (2) [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
-- (3) [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
-- (4) [Open Modelica](https://openmodelica.org/)
+- [Open Building control Website](https://obc.lbl.gov/)[^Reference1]
+- [OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)[^Reference2]
+- [Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)[^Reference3]
+- [Open Modelica](https://openmodelica.org/)[^Reference4]
 
 ### thoughts on open Modelica
 - install is full of extract operations for a lot of small files which makes the installation time SUPER long even on a modern high end PC - ask me how i know ;-)
@@ -46,7 +46,7 @@ This image from [the original paper on CDL](https://simulationresearch.lbl.gov/w
 
 ### General thoughts / Ideas to flush out:
 - Look at where the overall intended workflow of CDL is and how it will fit practicall into commercial projects to acheive the goals of CDL.
-  I noticed in their janurary 2022 paper [(2) above in Relevant Links] the intended CDL purpose serving the workflow as state:
+  In their janurary 2022 paper [(2) above in Relevant Links] the intended CDL purpose serving the workflow as state:
   >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
 
 They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
@@ -61,4 +61,8 @@ They state after the simulations are satisfactory to the design engineer they ex
   - Deployment and use / reference material for help - troubleshooting
   - Ongoing Maintenance and upgrades 
 
-[^1]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux. 
+[^1]: On "Open" above: Niagara is open in some ways, but really still not "open" by the standards of an "open source" community like.  Compare Niagara to Android, compare to Linux.
+[^Reference1]: [Open Building control Website](https://obc.lbl.gov/)
+[^Reference2]:[OpenBuildingControl: Digitizing the control delivery from building energy modeling to specification, implementation and formal verification, Wetter M., Ehrlich, P. Gautier, A. Grahovac, M. Haves P., Hu J., Prakash A., Robin D., Zhang K,.](https://www.sciencedirect.com/science/article/pii/S0360544221017497?via%3Dihub)
+[^Reference3]:[Buildings Controls OBC UsersGuide](https://build.openmodelica.org/Documentation/Buildings.Controls.OBC.UsersGuide.html)
+[^Reference4]:[Open Modelica](https://openmodelica.org/)
