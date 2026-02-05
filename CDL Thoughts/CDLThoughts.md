@@ -77,6 +77,7 @@ They state after the simulations are satisfactory to the design engineer they ex
   - Training / onboarding of each of the three stakeholder groups
   - Deployment and use / reference material for help - troubleshooting
   - Ongoing Maintenance and upgrades
+----------------------------------------
 
 ### Problems CDL will eventually solve
 --------------------------------------
