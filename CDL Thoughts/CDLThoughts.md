@@ -86,7 +86,7 @@ They state after the simulations are satisfactory to the design engineer they ex
 - Level the playingfield for competition on ability rather than product in the HVAC Automation indusrty
 - New options on controls hardware / cross compatiblity with new automation hardware platforms that typically dont target the HVAC automation industry
 - Deterministic States of control code execution - the same program will give the same output given the same inputs on any hardware
-- The abiity to remove BACnet from the industry and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protoco-gated data model
+- The abiity to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door. 
 
 ### Relevant Links
 - Open Building control Website [^Reference1]
