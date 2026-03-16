@@ -15,7 +15,7 @@ From [the original paper on CDL](https://simulationresearch.lbl.gov/wetter/downl
 - support the commissioning agent when verifying that the implemented control sequence meets the original specification
 
 ![EnochRick's Breakdown of Purpose diagram](images/introDiagram.png)
-This image from the original paper on CDL[^Reference5]
+This image from the original paper on CDL[^Reference5] and then i added everything in red below it. 
 
 <ins>Stakeholders:</ins>
 - Mechanical Desinger - MEP PE workflows
