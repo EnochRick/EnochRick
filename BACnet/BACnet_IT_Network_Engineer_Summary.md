@@ -95,3 +95,28 @@ I love these guys and their products:
 [https://www.ccontrols.com/lc/bacnet.htm](https://www.ccontrols.com/lc/bacnet.htm)
 
 [https://store.chipkin.com/articles/bacnet-index-page](https://store.chipkin.com/articles/bacnet-index-page)
+
+
+## Registering as a BACnet Foreign Device
+1. **Registration**:
+   - A foreign device (a device that is not part of the BACnet/IP network but wants to participate) sends a `Register-Foreign-Device` message to an appropriate BBMD on UDP port X'BAC0' or another agreed-upon port.
+   - The `Register-Foreign-Device` message consists of four fields: BVLC Type, BVLC Function, BVLC Length, and Time-to-Live (T).
+     -BVLC Type: 1-octet value X'81', indicating a BACnet/IP message.
+     -BVLC Function: 1-octet value X'05', indicating the Register-Foreign-Device function.
+     -BVLC Length: 2-octets, X'0006', specifying the length of the BVLL message in octets.
+     -Time-to-Live (T): 2-octets representing the number of seconds within which the foreign device must re-register with the BBMD to prevent its entry from being purged from the BBMD's Foreign Device Table (FDT). The T value is sent most significant octet first.
+
+2. **BBMD Processing**:
+   - Upon receiving a `Register-Foreign-Device` message, the BBMD checks if the Time-to-Live (T) value is within an acceptable range.
+   - If valid, the BBMD creates or updates an entry in its Foreign Device Table (FDT). Each FDT entry consists of:
+     - The 6-octet B/IP address of the registrant.
+     - The 2-octet Time-to-Live value supplied at the time of registration.
+     - A 2-octet value representing the number of seconds remaining before the BBMD will purge the registrant's entry if no re-registration occurs. This value is initialized to (T + 30) seconds, with a maximum of 65535.
+
+3. **Acknowledgement**:
+   - After successfully processing the registration, the BBMD sends a `BVLC-Result` message back to the foreign device with a result code of X'0000', indicating successful completion.
+   - If the registration fails for some reason (e.g., invalid Time-to-Live value), the BBMD returns a `BVLC-Result` message with an appropriate error code.
+
+4. **Re-registration**:
+   - To maintain its entry in the FDT, the foreign device must re-register before the number of seconds remaining reaches zero.
+   - The BBMD periodically checks and purges expired entries from its FDT.
