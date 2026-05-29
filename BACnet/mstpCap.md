@@ -171,7 +171,24 @@ BACnet MSTP Frames look like this in terms of bytes:
 ```
 **Minimum frame:** 8 bytes (header only)  
 **Maximum frame:** 511 bytes (8 header + 501 data + 2 data CRC)
+Using this as an example: 
 
+
+```mermaid
+---
+title: "TCP Packet"
+---
+packet
+0-55: "Source Port"
+55-FF: "Destination Port"
+32-63: "Sequence Number"
+64-95: "Acknowledgment Number"
+96-99: "Data Offset"
+100-105: "Reserved"
+106: "URG"
+```
+
+can you reformat this using byte numbering in decimal?
 The important thing to focus on here is the "CRC" - which stands for **Cyclic Redundancy Check** on a serial network frame. It is an error-detecting mathematical checksum appended to the end of a data transmission. It verifies that the frame arrived exactly as it was sent without accidental bit changes caused by physical noise or hardware faults.  
 
 Remember we saw: 
