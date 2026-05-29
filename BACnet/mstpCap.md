@@ -187,3 +187,50 @@ with our packet capture, this means we had noise on our wire that caused Frames 
 - Correct wire type, guage, and contiguous shielding for the entire segment
 - All devices have their BAUD rates set the same (autobaud can sometimes fail and cause CRC errors)
 - All devices are properly grounded per the manufacturer's instructions. 
+
+## more fun with MSTP Frames:
+## Field descriptions
+
+### Header (always present — 8 bytes total)
+
+| Field | Size | Description |
+|---|---|---|
+| Preamble 1 | 1 byte | Fixed sync byte `0x55` — marks the start of a frame |
+| Preamble 2 | 1 byte | Fixed sync byte `0xFF` — confirms frame start |
+| Frame type | 1 byte | Identifies the frame as token, data, reply, test, etc. |
+| Dest address | 1 byte | Destination node address (0–127); `255` = broadcast |
+| Src address | 1 byte | Source node address (0–127) |
+| Data length | 2 bytes | Big-endian unsigned 16-bit value; number of data bytes (0–501) |
+| Header CRC | 1 byte | 8-bit CRC covering bytes 3–7 of the header |
+
+### Data section (conditional)
+
+| Field | Size | Description |
+|---|---|---|
+| Data | 0–501 bytes | BACnet NPDU/APDU payload; absent when data length = 0 |
+| Data CRC | 2 bytes | 16-bit CRC covering the data bytes; absent when data length = 0 |
+
+---
+
+## Notes
+
+- The two preamble bytes (`0x55`, `0xFF`) allow receivers to synchronize and detect the start of a frame on the RS-485 bus.
+- Destination and source addresses are single bytes. Valid node addresses are 0–127, with 255 reserved for broadcast.
+- Data length is a big-endian 16-bit value. When it is 0 (e.g., a token frame), neither the data field nor the data CRC are present.
+- The header CRC is an 8-bit CRC. The data CRC is a 16-bit CRC.
+
+---
+
+## Common frame types
+
+| Hex value | Frame type |
+|---|---|
+| `0x00` | Token |
+| `0x01` | Poll For Master |
+| `0x02` | Reply To Poll For Master |
+| `0x03` | Test Request |
+| `0x04` | Test Response |
+| `0x05` | BACnet Data Expecting Reply |
+| `0x06` | BACnet Data Not Expecting Reply |
+| `0x07` | Reply Postponed |
+
