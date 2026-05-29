@@ -157,16 +157,16 @@ BACnet MSTP frames are the packets of data on the wire.  Since Its a serial netw
 BACnet MSTP Frames look like this in terms of bytes:
 
 ```
-┌───────────┬───────────┬─────────────┬──────────────┬─────────────┬──────────────┬─────────────┐
-│  0x55    │  0xFF    │ Frame type │ Dest address│ Src address│ Data length │ Header CRC │
-│Preamble 1│Preamble 2│  1 byte    │   1 byte    │   1 byte   │   2 bytes   │   1 byte   │
-└───────────┴───────────┴─────────────┴──────────────┴─────────────┴──────────────┴─────────────┘
+┌──────────┬──────────┬────────────┬─────────────┬────────────┬─────────────┬─────────────┐
+│  0x55    │  0xFF    │ Frame type │ Dest address│ Src address│ Data length │ Header CRC  │
+│Preamble 1│Preamble 2│  1 byte    │   1 byte    │   1 byte   │   2 bytes   │   1 byte    │
+└──────────┴──────────┴────────────┴─────────────┴────────────┴─────────────┴─────────────┘
 ╔══════════════════════════════════════════════════════════════════════════════════════════╗
-║                         Data — 0 to 501 bytes (optional)                         ║
-║                        Present only when data length > 0                         ║
+║                         Data — 0 to 501 bytes (optional)                                 ║
+║                        Present only when data length > 0                                 ║
 ╚══════════════════════════════════════════════════════════════════════════════════════════╝
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                    Data CRC — 2 bytes (present only when data length > 0)        │
+│                    Data CRC — 2 bytes (present only when data length > 0)                │
 └──────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 **Minimum frame:** 8 bytes (header only)  
