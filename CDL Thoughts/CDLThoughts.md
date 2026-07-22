@@ -94,7 +94,7 @@ This image from the original paper on CDL[^Reference5] and then i added everythi
 - Common industry programming lanugage which will allow open sourcing of the control code used in the HVAC automation industry
 - New options on controls hardware / cross compatiblity with new automation hardware platforms that typically dont target the HVAC automation industry
 - Deterministic States of control code execution - the same program will give the same output given the same inputs on any hardware
-- The abiity to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door.
+- The abilty to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door.
 
 ## Example Code:
 ```modelica
