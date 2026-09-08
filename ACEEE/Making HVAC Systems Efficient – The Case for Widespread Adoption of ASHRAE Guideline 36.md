@@ -95,12 +95,12 @@ The BAS upgrade was completed and commissioned by Summer 2016. The BAS upgrade h
 
 If we look at the charts separately and point out each of the energy savings events in a chronological order, some savings can potentially still be attributed to the BAS upgrades. However, it is important to note that this is speculative as there has not been an independent study performed to verify the BAS upgrade savings alone.
 
-No alt text provided for this image
+<img width="936" height="516" alt="Figure2" src="https://github.com/user-attachments/assets/1eb06225-aa58-42ce-b7a8-9ad49d8bcac4" />
 Figure 2. Natural Gas Consumption 2014-2019
 
 The decline in natural gas consumption over years prior to the BAS upgrade is largely attributed to the steam absorption chiller replacement. However, the BAS upgrade may be attributable to a decrease in reheat energy at all of the terminal equipment. The new lower winter baseline post 2016 makes a pretty compelling case for this. 
 
-No alt text provided for this image
+<img width="936" height="544" alt="Figure3" src="https://github.com/user-attachments/assets/d7913a73-67b7-4307-a746-f36b4965bb29" />
 Figure 3. Electricity Consumption 2014-2019
 
 We see a spike in electrical consumption post-BAS upgrade in summer 2016. The source of this spike in consumption was thought to be attributed to a roll-up MRI machine that was brought on campus around this time, but again it is unknown since no comprehensive study was conducted. As is visible the net electrical consumption has decreased over the 3-year period despite adding more electrical load via a new chiller.
