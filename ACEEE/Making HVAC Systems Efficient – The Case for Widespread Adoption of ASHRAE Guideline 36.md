@@ -87,7 +87,7 @@ The hospital is a 123,500 square foot general care facility including inpatient 
 
 The Guideline was adapted and used to inform the sequences of operations. Zone groups were established based on thermal and ventilation requirements but also based on space end use types and ASHRAE Standard 170 requirements. As a result, all the zone ventilation rates were recalculated, and the entire building rebalanced after the terminal unit controls were upgraded. All the zones implemented heating and cooling requests up to their parent AHUs. Trim and respond control logic was implemented building wide. Both of these sequences, per Guideline 36, helped close control loops and refine temperature and ventilation control throughout the building while maintaining occupant comfort. Figure 1 shows energy consumption at the hospital from 2014 – 2019.
 
-![Figure 1. Hospital Energy Consumption 2014-2019][[ACEEE/images/Figure1.png](https://github.com/EnochRick/EnochRick/blob/main/ACEEE/images/Figure1.png)]
+<img width="2065" height="1500" alt="Figure1" src="https://github.com/user-attachments/assets/96968fc5-1676-46f7-b7fd-2a80ee413fc2" />
 
 Figure 1. Hospital Energy Consumption 2014-2019
 
