@@ -87,7 +87,7 @@ The hospital is a 123,500 square foot general care facility including inpatient 
 
 The Guideline was adapted and used to inform the sequences of operations. Zone groups were established based on thermal and ventilation requirements but also based on space end use types and ASHRAE Standard 170 requirements. As a result, all the zone ventilation rates were recalculated, and the entire building rebalanced after the terminal unit controls were upgraded. All the zones implemented heating and cooling requests up to their parent AHUs. Trim and respond control logic was implemented building wide. Both of these sequences, per Guideline 36, helped close control loops and refine temperature and ventilation control throughout the building while maintaining occupant comfort. Figure 1 shows energy consumption at the hospital from 2014 – 2019.
 
-![Figure 1. Hospital Energy Consumption 2014-2019][/images/Figure1.png]
+![Figure 1. Hospital Energy Consumption 2014-2019][ACEEE/images/Figure1.png]
 Figure 1. Hospital Energy Consumption 2014-2019
 
 The BAS upgrade was completed and commissioned by Summer 2016. The BAS upgrade happened to coincide with some other major equipment upgrades including the replacement of a steam absorption chiller with a modern screw chiller, a lighting system upgrade and some central plant modifications and upgrades. Therefore, it is hard to disaggregate what savings in Figure 1 above are attributable to the BAS upgrade alone. A retrocommissioning study is currently underway to determine what saving are attributable to the upgrade, and what savings may have persisted over the last three years. 
