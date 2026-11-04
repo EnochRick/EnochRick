@@ -59,7 +59,7 @@ This image from the original paper on CDL[^Reference5] and then i added everythi
 
 #### Second issue - Commercial friction - where time is money
 ----------------------------------------------------------------------------------------------------
- In their janurary 2022 paper[^Reference2], second paragraph of section 3 "Methodology" the intended CDL workflow then carries into a list of other software platforms the design engineer should / would be using :
+ In their January 2022 paper[^Reference2], second paragraph of section 3 "Methodology" the intended CDL workflow then carries into a list of other software platforms the design engineer should / would be using :
  > For closed-loop performance assessment, step (2) in the figure, Modelica models of the HVAC systems and controls [34] can be linked to a Modelica envelope model [33] or to an EnergyPlus envelope model. This can currently be done through Spawn of EnergyPlus [38]. Library of control sequences, step (3), have been released with the Modelica Buildings Library 7.0.0 and more sequences are currently added to this library. To export control sequences in a vendor-neutral format, step (5), a translator from CDL to a json intermediate format has been developed [22]. The json intermediate format is to be used as input for cost estimation tools and for translators to vendor-specific product lines. This translator also outputs an English language description of the control sequence, including its block diagram representation.
 
 **Listed Tools** This paragraph and assocaited tools imply the MEP design engineering firm is modeling MEP and Envelope in a whole building model
@@ -68,9 +68,9 @@ This image from the original paper on CDL[^Reference5] and then i added everythi
 - EnergyPlus (same as above)
 - Spawn of EnergyPlus
 - CDL to JSON translator
-  - JSON ingesting Cost Estmiation tools
+  - JSON ingesting Cost Estimation tools
   - JSON ingesting CDL to Vendor IDE translation tool (Developed by each vendor)
-  - JSON to english description of CDL sequence & Block Diagram
+  - JSON to English description of CDL sequence & Block Diagram
 
 - **Rick's Hot take**: the reason MEP designs and control implementations of their sequences fail is bigger than simple technology tools, its the forces of capitalism acting on both segments of the construction industry.  Without solving those problems and rethinking how buildings are contracted to be built those problems will not be engineered away.  Taking these forces into consideration, most MEP design engineering firms sell time as their primary deliverable.  SO adding a new list of tools to learn with complicated processes to model buildings correctly can result in the added cost of a FTE or more at a firm.  The ROI on that must be that the models match reality better than the competition and the first thing a FTE modeling professional will tell you is that these models don’t meet their real world counterparts and need to be calibrated.  Now CDL is asking to add another layer of complexity to this process which i would argue is competition-gated to the most expensive / elite MEP firms and thus not an industry standard practice.  While this is a nice to have, the reality is __unless__ the friction of using these tools under capitalism is reduced to the point where the cheapest MEP design engineer can model "good enough" in a "small enough" time frame, I put forth that this use case in industry will be less than 1% of all projects.  
 
@@ -89,12 +89,12 @@ This image from the original paper on CDL[^Reference5] and then i added everythi
 ### Problems CDL will eventually solve
 --------------------------------------
 - Apples-to-Apples estimating for controls contractors
-  - Level the playingfield for competition on ability rather than product in the HVAC Automation indusrty
+  - Level the playing field for competition on ability rather than product in the HVAC Automation industry
 - Testing and validation of controls sequences regardless of the controls platform
-- Common industry programming lanugage which will allow open sourcing of the control code used in the HVAC automation industry
-- New options on controls hardware / cross compatiblity with new automation hardware platforms that typically dont target the HVAC automation industry
+- Common industry programming language which will allow open sourcing of the control code used in the HVAC automation industry
+- New options on controls hardware / cross compatibility with new automation hardware platforms that typically dont target the HVAC automation industry
 - Deterministic States of control code execution - the same program will give the same output given the same inputs on any hardware
-- The abilty to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door.
+- The ability to evolve from BACnet/Modbus and harden cybersecurity around control code via API access and machine to machine interoperability outside a traditionally Protocol-gated data model.  Machine to machine interaction in modern day IT systems are API based and the HVAC automation industry would benefit from this move too. CDL being expressed as JSON opens this door.
 
 ## Example Code:
 ```modelica
