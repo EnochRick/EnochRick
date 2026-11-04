@@ -48,14 +48,14 @@ This image from the original paper on CDL[^Reference5] and then i added everythi
 ===========================================
 #### First issue - Who starts the process of using CDL commercially to solve our commerical problem?
 ----------------------------------------------------------------------------------------------------
-- Look at where the overall intended workflow of CDL is and how it will fit practicall into commercial projects to acheive the goals of CDL.
-  In their janurary 2022 paper[^Reference2], first paragraph of section 3 "Methodology" the intended CDL workflow starts with:
+- Look at where the overall intended workflow of CDL is and how it will fit practical into commercial projects to achieve the goals of CDL.
+  In their January 2022 paper[^Reference2], first paragraph of section 3 "Methodology" the intended CDL workflow starts with:
   >  Given regulations and efficiency targets, labeled as (1) in Fig. 2, a design engineer selects, configures, tests and evaluates the performance of a control sequence using building energy simulation (2), starting from a control sequence library that contains ASHRAE Guideline 36 sequences, as well as any user-added sequences (3), linked to a model of the mechanical system and the building (4). If the sequences meet closed-loop performance requirements, the designer exports a control specification, including the sequences and functional verification tests expressed in the Controls Description Language CDL (5)
 
 - **Rick's Hottake**:
   - They state a process that starts with the stakeholder of the "design engineer", who runs a simulation using CDL logic (maybe from a pre-built starting place).
   - They state after the simulations are satisfactory to the design engineer they export the CDL to be used in the actual programming and in commissioning.  
-  - Between the original 2018 paper[^Reference1] and their 2022 paper [^Reference2] the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakehodler upon which the CDL commerical use depends upon.  Therefore I stipualte that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adpoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
+  - Between the original 2018 paper[^Reference1] and their 2022 paper [^Reference2] the stakeholder that starts the intended commercial use is the design engineer. This is unchanged over this span of time, and therefore is the principal stakeholder upon which the CDL commercial use depends upon.  Therefore I stipulate that CDL must be low-to-no friction in its commercial use / application (this will be the basis of my drive for reviewing all of this work and collective feedback to these developers).  Without adoption of CDL by the design community as Autocad has been adopted, CDL dies in its intended use.  **CDL must be as easy (and I would argue easier) to download/install/run and use productively than Autocad.** 
 
 #### Second issue - Commercial friction - where time is money
 ----------------------------------------------------------------------------------------------------
